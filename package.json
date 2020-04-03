@@ -1,0 +1,26 @@
+{
+  "name": "cypress-percy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warren-avantica/cypress-percy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warren-avantica/cypress-percy/issues"
+  },
+  "homepage": "https://github.com/warren-avantica/cypress-percy#readme",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.0.2"
+  }
+}
