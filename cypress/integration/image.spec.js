@@ -4,7 +4,7 @@ describe('Visual regression', () => {
     // LOAD WEBSITE
     cy.visit('http://example.com/')
 
-    // COMPARE SNAPSHOTS
+    // COMPARE THE SNAPSHOTS
     cy.matchImageSnapshot()
   })
 })
